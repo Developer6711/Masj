@@ -1,0 +1,21 @@
+<div class="card-group">
+
+<ng-container *ngFor="let item of listaCursos">
+
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{item.urlImage}} alt="Cursos">
+    <div class="card-body">
+      <h5 class="card-title">{{item.titulo}}</h5>
+      <br/>
+      <h5 class="card-title">Dia: {{item.fecha}}</h5>
+      <h5 class="card-title">Hora: {{item.fecha}}</h5>
+      <h5 class="card-title">Instructor: {{item.docente}}</h5>
+      
+      <p class="card-text">Curso Angular.</p>
+      <a href="#" class="btn btn-primary">Información</a>
+    </div>
+  </div>
+
+</ng-container>
+</div>
